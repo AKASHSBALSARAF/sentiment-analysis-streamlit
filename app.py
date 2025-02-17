@@ -99,7 +99,7 @@ wordcloud = WordCloud(
     colormap='YlGnBu',  # Vibrant colormap for visual appeal
     max_font_size=33,  # Font size for the words
     width=275,  # Width of the word cloud image
-    height=420  # Height of the word cloud image
+    height=400  # Height of the word cloud image
 ).generate_from_frequencies(word_freq_dict)
 
 # Adjust Pie Chart and Word Cloud to display side by side (nice layout)
