@@ -73,7 +73,7 @@ values = sentiment_counts.values
 fig2 = go.Figure(data=[go.Pie(
     labels=labels,
     values=values,
-    hole=0.3,  # Create a donut-like effect
+    hole=0.5,  # Create a donut-like effect
     marker=dict(colors=['#1f77b4', '#ff7f0e', '#2ca02c', '#9467bd']),  # Colors for sentiment categories
     textinfo='percent+label',  # Display percentage and label
     title='Sentiment Distribution Over Time',
