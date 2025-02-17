@@ -70,17 +70,15 @@ labels = sentiment_counts.index
 values = sentiment_counts.values
 
 # Plotly Pie chart
-fig2 = go.Figure(data=[go.Pie(
-    labels=labels,
-    values=values,
-    hole=0.4,  # Create a donut-like effect
-    marker=dict(colors=['#1f77b4', '#ff7f0e', '#2ca02c', '#9467bd']),  # Colors for sentiment categories
-    textinfo='percent+label',  # Display percentage and label
-    title='Sentiment Distribution\nOver Time',
-    textfont=dict(size=22, color='white'),  # Font settings for the title
-    labelfont=dict(size=14, color='black'),  # Font settings for labels
-)])
-
+fig2.update_layout(
+    plot_bgcolor='#0E1117',  # Dark background for a modern look
+    paper_bgcolor='#0E1117',  # Dark paper background for consistency
+    title_x=0.5,  # Center the title
+    title_font=dict(size=22, color='white'),  # White title font
+    legend_title_font=dict(size=15, color='white'),  # White legend font for visibility
+    height=770,  # Set the chart height for better spacing
+    width=770,   # Set width to maintain symmetry
+)
 # Customize layout (background and title centering)
 fig2.update_layout(
     plot_bgcolor='#0E1117',  # Dark background for a modern look
