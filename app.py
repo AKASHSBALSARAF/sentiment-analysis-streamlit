@@ -25,7 +25,7 @@ st.markdown("<h1 style='font-size:50px;'>India Today Cover Story Analysis️</h1
 
 # Project Description for the users
 st.markdown("""
-    <h2 style='font-size:20px;'>This project analyzes the cover stories of <strong>India Today</strong> from January 2018 to February 2025.
+    <h2 style='font-size:18px;'>This project analyzes the cover stories of <strong>India Today</strong> from January 2018 to February 2025.
     It visualizes sentiment trends, word frequencies, and sentiment distribution across time.
     The data is sourced from archived versions of <strong>India Today</strong> magazine through the <strong>Wayback Machine</strong>.</h2>
 """, unsafe_allow_html=True)
