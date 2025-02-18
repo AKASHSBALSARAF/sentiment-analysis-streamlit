@@ -1,4 +1,4 @@
-# India Today Sentiment Analysis Dashboard (https://docs.streamlit.io/)
+# India Today Sentiment Analysis Dashboard (https://indiatoday-sentiment.streamlit.app/)
 
 This project provides insights into the sentiment trends of India Today's cover stories from January 2018 to February 2025. The sentiment analysis is based on automated models that analyze the sentiment conveyed in the article titles. The tool also tracks the frequency of words used in the cover stories and visualizes sentiment trends over time.
 
