@@ -73,7 +73,7 @@ values = sentiment_counts.values
 fig2 = go.Figure(data=[go.Pie(
     labels=labels,
     values=values,
-    hole=0.3,  # Create a donut-like effect
+    hole=0.25,  # Create a donut-like effect
     marker=dict(colors=['#1f77b4', '#ff7f0e', '#2ca02c', '#9467bd']),  # Colors for sentiment categories
     textinfo='percent+label',  # Display percentage and label
     title=' ',
@@ -169,7 +169,7 @@ st.markdown("""
     <h2 style='font-size:30px;'>📂 Inspect Raw Data</h2>
 """, unsafe_allow_html=True)
 
-with st.expander("Click to view disclaimer details"):
+with st.expander("Click to view raw data"):
     st.markdown("""
     Below is a sample of the raw data with clickable links in the **Wayback Archive** column.  
     Use the slider below to adjust the number of rows displayed. Displaying fewer rows improves performance.  
