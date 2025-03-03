@@ -240,7 +240,7 @@ st.markdown("""
     </p>
     <!-- LinkedIn Icon and GitHub Icon -->
     <div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
-        <a href="https://www.linkedin.com/in/akash-shridhar-balsaraf/" target="_blank">
+        <a href="https://in.linkedin.com/in/akash-shridhar-balsaraf" target="_blank">
             <img src="https://www.svgrepo.com/show/448234/linkedin.svg" alt="LinkedIn"
                  style="width: 60px; height: 60px;">
         </a>
